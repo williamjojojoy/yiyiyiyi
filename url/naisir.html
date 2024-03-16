@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Alguien Especial</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+
+        .contenedor {
+            text-align: center;
+            perspective: 800px;
+        }
+
+        .elemento {
+            display: inline-block;
+            margin: 10px;
+            font-size: 24px;
+            color: #ff69b4; /* Rosa intenso */
+            transform-style: preserve-3d;
+            animation: rotateElement 6s linear infinite;
+        }
+
+        .corazon {
+            font-size: 36px;
+            color: #e60073; /* Rosa oscuro */
+        }
+
+        .mensaje {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        @keyframes rotateElement {
+            0% {
+                transform: rotateY(0deg);
+            }
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="elemento flor">🌸</div>
+        <div class="elemento corazon">❤</div>
+        <div class="elemento flor">🌷</div>
+        <div class="elemento corazon">❤</div>
+        <div class="elemento flor">🌺</div>
+        <div class="mensaje">
+            Para yisela. 💖
+        </div>
+    </div>
+</body>
+</html>TQM
